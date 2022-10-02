@@ -1,0 +1,69 @@
+
+
+.footer_heading{
+    padding: 30px 50px;
+    background-image:linear-gradient(56deg, #e47321, #ff6361);
+    color: white;
+    font-weight: 600;
+}
+
+.footer_title{
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.trusted{
+    width: 200px;
+    font-size: 14px;
+    margin: 0px 60px 0 0;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 95px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.footer_container{
+width: 750px;
+padding: 70px 50px 0;
+margin: 0 50px 0;
+display: flex;
+justify-content: space-around;
+color:#fff
+}
+.about_nuuk{
+    display: flex;
+    margin-bottom: 30px;
+}
+.about_nuuk_link{
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight:600;
+}
+
+.footer_container{
+    background-color: #0a1229;
+}
+
+.first_heading{
+    width: 190px;
+    padding-right:50px;
+}
+.contact_image{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contact_image img {
+    width: 20px;
+    height: 20px;
+}
+

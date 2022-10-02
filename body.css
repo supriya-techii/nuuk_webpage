@@ -1,0 +1,72 @@
+body {
+  margin: 20px 20px 0px 20px;
+  font-family: "Dosis", sans-serif;
+  color: #919198;
+  font-size:17px;
+  line-height:25px;
+}
+
+
+section{
+   display: flex;
+   flex-direction: column;
+   padding: 10% 5%;
+   position: relative;
+ }
+ 
+h2 {
+  font-size: 42px;
+  letter-spacing: 1px;
+  margin: 0;
+  z-index: 2;
+  color: #121212;
+}
+
+.section_title_left {
+  display: flex;
+}
+
+.title_background {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: 1;
+  color: rgba(241, 241, 247, 0.4);
+  font-size: 120px;
+  letter-spacing: 10px;
+}
+
+.section_link {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.section_link a {
+  color: #919198;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.section_link a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #e47312;
+}
+
+.social_icons{
+  width: 40px;
+  height: 170px;
+  background-color: #e47312;
+  padding: 10px;
+vertical-align: middle;
+display: flex;
+flex-direction: column;
+
+}
+
+.social_icons img{
+  height: 16px;
+  width: 16px;
+}

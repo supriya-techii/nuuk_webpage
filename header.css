@@ -1,0 +1,193 @@
+header {
+  background-image: linear-gradient(
+      76deg,
+      rgba(193, 195, 204, 0.83) 35%,
+      rgba(193, 195, 204, 0.28) 65%
+    ),
+    url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+  background-size: cover;
+  background-position: 0 0 50% 0;
+  background-repeat: no-repeat;
+}
+
+nav {
+  height: 88px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  display: flex;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.nav_bar_image {
+  width: 160px;
+  height: 110px;
+  background-color: #e47312;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav_bar_image img {
+  width: 90px;
+}
+
+.nav_bar_menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.nav_bar_menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav_bar_menu ul li {
+  list-style-type: none;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.nav_bar_extra {
+  position: relative;
+}
+
+.nav_bar_extra:hover .nav_bar_dropdown_extra {
+  opacity: 1;
+}
+
+.nav_bar_dropdown_extra {
+  position: absolute;
+  top: 55px;
+  background-color: #fff;
+  opacity: 0;
+}
+
+.nav_bar_dropdown_extra ul {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 140px;
+}
+
+.nav_bar_dropdown_extra ul li {
+  display: flex;
+  padding: 10px;
+  width: 80%;
+}
+
+.nav_bar_dropdown_extra ul li:hover {
+  background: lightgrey;
+}
+
+.nav_bar_get_free {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e47312;
+  color: #fff;
+}
+
+.header_container {
+  height: 400px;
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.header_container_content {
+  width: 60%;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  padding-left: 40px;
+  flex-direction: column;
+}
+
+.header_container_content h1 {
+  font-size: 62px;
+  line-height: 70px;
+  margin: 0;
+}
+
+.header_container_content button {
+  width: 160px;
+  height: 50px;
+  padding: 15px 25px;
+  background: #e47312;
+  font-size: 12px;
+  border: none;
+  color: #fff;
+}
+
+.header_container_content button:hover {
+  background: #e98a38;
+}
+
+.header_social_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 40%;
+  align-items: flex-end;
+}
+.header_social_links button {
+  width: 40px;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  background: #0a1229;
+  border-bottom: #ffffff24;
+  color: #fff;
+}
+.header_social_links button:first-child {
+  padding-top: 10px;
+}
+.header_social_links button:last-child {
+  padding-bottom: 10px;
+
+}
+.header_social_links img{
+  width: 16px;
+  height:16px;
+}
+
+.header_contact_us {
+  background-color: #e47312;
+  padding: 40px 100px 40px 50px;
+  max-width: 1000px;
+  margin-left: auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+    top: -100px;
+}
+.header_contact_us img {
+  height: 24px;
+  width: 23px;
+}
+.header_contact_us_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.header_contact_us_number_title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.header_contact_us_card p {
+  margin-top: 15px;
+  margin-bottom: 0;
+}

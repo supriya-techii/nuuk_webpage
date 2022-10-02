@@ -1,0 +1,50 @@
+#our_specialization {
+    
+}
+
+.our_specialization_content {
+  display: flex;
+  width: 100%;
+  margin-top:60px;
+}
+
+.our_specialization_container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-bottom:10px;
+  padding-right:10px;
+}
+
+.our_specialization_container img {
+  width: 60px;
+  margin-bottom:20px
+}
+
+.our_specialization_title {
+  font-weight: 600;
+  margin-bottom:10px;
+}
+
+.our_specialization_description{
+color: #919198;
+line-height:25px;
+font-size:17px;
+margin-bottom:10px;
+}
+
+.our_specialization_link {
+    margin-top:15px;
+}
+
+.our_specialization_link a {
+  color: #919198;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.our_specialization_link a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #e47312;
+}

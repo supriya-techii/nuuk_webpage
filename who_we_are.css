@@ -1,0 +1,77 @@
+#who_we_are{
+}
+.who_we_are_title{
+    display:flex;
+    width:100%;
+}
+.who_we_are_image,.who_we_are_description{
+width:50%
+}
+.who_we_are_image img{
+    width:100%;
+    margin:auto;
+}
+
+.who_we_are_description{
+    padding-left:100px;
+    position:relative;
+    color: #919198;
+
+}
+
+.who_we_are_background{
+    position: absolute;
+    top: -25px;
+    left: 50px;
+    z-index: 2;
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 120px;
+    letter-spacing: 10px;
+}
+
+.who_we_are_description_link a{
+    margin-top: 25px;
+    color: #919198;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  
+  .who_we_are_description_link a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #e47312;
+  }
+  
+
+.who_we_are_description p{
+margin-bottom:10px;
+font-size:17px ;
+line-height:25px;
+}
+.who_we_are_numbers{
+width:100%;
+display:flex;
+}
+.who_we_are_numbers_container{
+    width:25%;
+    display:flex;
+    flex-direction:column;
+    padding-right:80px;
+    margin-top:80px;
+}
+.number{
+    color:#e47312;
+    font-size: 60px;
+    line-height:70px;
+    font-weight:500;
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+#testimonials{
+  background-color: #f7f8fc;
+  height: 700px;
+}
+
+
+#testimonials{
+  display: flex;
+  flex-direction:row;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.testimonial_container{
+  position: relative;
+  display: flex;
+  flex-direction:column;
+  width:40%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.testimonial_title{
+width:255px;
+margin-top:130px;
+z-index: 2;
+}
+
+.testimonial_title_background{
+    z-index: 1;
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 120px;
+    letter-spacing: 10px;
+
+}
+
+.testimonial_description_info{
+  color: #919198;
+margin-bottom:10px;
+padding-right: 100px;
+margin-left: 0;
+width: 240px;
+height: 100px;
+
+
+}
+.testimonial_link{
+  margin-top: 25px;
+
+}
+.testimonial_link a{
+
+    color: #919198;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  
+  .testimonial_link a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #e47312;
+  }
+
+  .testimonial_main_cards_container{
+  width: 60%;
+  display: flex;
+  flex-direction:row;
+}
+
+.testimonial_first_half_cards, .testimonial_second_half_cards{
+  width:50%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 336px;
+}
+
+.testimonial_card1{
+  margin:50px 14px 60px;
+  padding: 80px 30px 26px;
+  border: solid;
+  background: #fff;
+  border: none;
+  display: block;
+  z-index: 1;
+  text-align: center;
+} 
+
+.testimonial_card_circle{
+border-radius: 50%;
+background-image: linear-gradient(8deg, #ff6361, #e47312);
+height: 60px;
+width: 60px;
+opacity: 2;
+margin:-115px auto 26px ;
+
+}
+
+.single_qutation{
+  text-align: center;
+  font-size: 60px;
+  padding-top: 30px;
+  color: #fff;
+  line-height: 20px;
+}
+
+.testimonial_card_title{
+  margin: 15px 0px 5px;
+  color: #121213;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.testimonial_card2{
+  margin:50px 14px 60px;
+  padding: 80px 30px 26px;
+  border: solid;
+  background: #fff;
+  border: none;
+  display: block;
+  z-index: 1;
+  text-align: center;
+} 
+.testimonial_card3{
+  margin:50px 14px 60px;
+  padding: 80px 30px 26px;
+  border: solid;
+  background: #fff;
+  border: none;
+  display: block;
+  z-index: 1;
+  text-align: center;
+} 
+.testimonial_card4{
+  margin:50px 14px 60px;
+  padding: 80px 30px 26px;
+  border: solid;
+  background: #fff;
+  border: none;
+  display: block;
+  z-index: 1;
+  text-align: center;
+} 
+
